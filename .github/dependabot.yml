@@ -7,8 +7,8 @@ updates:
       interval: "weekly"
     commit-message:
       prefix: ⬆
-  # Python
-  - package-ecosystem: "pip"
+  # NPM
+  - package-ecosystem: "npm"
     directory: "/"
     schedule:
       interval: "weekly"
