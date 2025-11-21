@@ -1,0 +1,57 @@
+{
+  "editor.formatOnSave": false,
+  "files.eol": "\n",
+  "[typescript]": {
+    "editor.formatOnSave": true,
+    "files.autoSave": "onFocusChange",
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": "explicit",
+      "source.addMissingImports": "always",
+      "source.organizeImports": "always"
+    }
+  },
+  "[javascript]": {
+    "editor.formatOnSave": false,
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": "explicit",
+      "source.addMissingImports": "always",
+      "source.organizeImports": "always"
+    }
+  },
+  "[typescriptreact]": {
+    "editor.formatOnSave": false,
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": "explicit",
+      "source.addMissingImports": "always",
+      "source.organizeImports": "always"
+    }
+  },
+  "[json]": {
+    "editor.formatOnSave": true
+  },
+  "javascript.format.enable": false,
+  "typescript.format.enable": false,
+  "cSpell.enabledFileTypes": {
+    "javascript": false,
+    "json": false,
+    "typescript": true,
+    "typescriptreact": false,
+    "md": true,
+    "mdx": true
+  },
+  "typescript.preferences.importModuleSpecifier": "non-relative",
+  "search.exclude": {
+    "**/.yarn": true,
+    "**/node_modules": true
+  },
+  "eslint.debug": true,
+  "files.associations": {
+    ".cursorrules": "markdown"
+  },
+  "flake8.args": [
+    "--max-line-length=120"
+  ],
+  "pylint.args": [
+    "--max-line-length=120"
+  ],
+}
